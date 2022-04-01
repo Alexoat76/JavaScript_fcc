@@ -1,1 +1,71 @@
-# JavaScript_fcc
+1.  [JavaScript Algorithms and Data Structures](/learn/javascript-algorithms-and-data-structures)
+2.  [Basic JavaScript](/learn/javascript-algorithms-and-data-structures/#basic-javascript)
+
+# Accessing Nested Arrays
+=========================
+
+As we have seen in earlier examples, objects can contain both nested objects and nested arrays. 
+Similar to accessing nested objects, array bracket notation can be chained to access nested arrays.
+
+### Here is an example of how to access a nested array:
+
+```bash
+
+    const ourPets = [
+      {
+        animalType: "cat",
+        names: [
+          "Meowzer",
+          "Fluffy",
+          "Kit-Cat"
+        ]
+      },
+      {
+        animalType: "dog",
+        names: [
+          "Spot",
+          "Bowser",
+          "Frankie"
+        ]
+      }
+    ];
+    
+    ourPets[0].names[1];
+    ourPets[1].names[0];
+```  
+`ourPets[0].names[1]` would be the string `Fluffy`, and `ourPets[1].names[0]` would be the string `Spot`.
+---
+
+## Task
+
+* Using dot and bracket notation, set the variable `secondTree` to the second item in the `trees` list from the `myPlants` object.
+	* `secondTree` should equal the string `pine`.
+	* Your code should use dot and bracket notation to access `myPlants`.
+
+```bash
+const myPlants = [
+
+  {
+    type: "flowers",
+    list: [
+      "rose",
+      "tulip",
+      "dandelion"
+    ]
+  },
+  {
+    type: "trees",
+    list: [
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }
+];
+
+const secondTree = "";
+```
+---
+
+## Get Help
+*   [Get a Hint](https://forum.freecodecamp.org/t/16160)
