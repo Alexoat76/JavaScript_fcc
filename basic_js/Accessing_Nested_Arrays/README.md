@@ -14,8 +14,8 @@
   >
 </p>
 
-1.  [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures)
-2.  [Basic JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript)
++ **[JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures)**
++ **[Basic JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript)**
 
 ## Accessing Nested Arrays
 
@@ -54,6 +54,8 @@ Similar to accessing nested objects, array bracket notation can be chained to ac
 ---
 
 ## Task
+
++ **[Accessing Nested Arrays.js](./accessing_nested_arrays.js)**
 
 + [x] **Using dot and bracket notation, set the variable `secondTree` to the second item in the `trees` list from the `myPlants` object.**
 	* `secondTree` should equal the string `pine`.
