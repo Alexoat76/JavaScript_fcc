@@ -23,7 +23,7 @@ This repo contains the tasks for learn and practice the fundamental programming 
 
 ---
 
-+ [x] **[Accessing Nested Arrays](./accessing-nested-arrays)**
++ [x] **[Accessing Nested Arrays](https://github.com/Alexoat76/JavaScript_fcc/tree/main/basic_js/Accessing_Nested_Arrays)**
 
 ---
 ## Credits
